@@ -3,4 +3,8 @@ Hey Guys this is the description of the project
 
 An ESP32-based smart access control system featuring Role-Based Access Control (RBAC), a finite state machine architecture, non-blocking operation, and reliable offline log synchronization over HTTP.
 
-For furthur details do check the Report.
+To test the project out:- 
+https://wokwi.com/projects/469017888533243905
+
+
+For More Details, do look over the project report.
