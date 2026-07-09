@@ -279,18 +279,7 @@ void loop()
 
   checkEmergency();
   char key = customKeypad.getKey();
-  if (key == '0') {
-    WiFi.disconnect(true);
-    Serial.println("WiFi Disconnected");
-  }
-
-  else if (key == '#') {
-    WiFi.begin(ssid, password);
-    Serial.println("Reconnecting...");
-  }
-  else{
   runMachine(key);
-  }
   flushQueue();
 
 }
