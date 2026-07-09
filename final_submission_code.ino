@@ -465,7 +465,7 @@ void cIncorrect(unsigned long timern)
 
 void cCorrect(unsigned long timern)
 {
-    if (timern - checkt < 100)
+    if (timern - checkt < 1500)
         return;
 
     checkt = timern;
